@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Safari Journeys</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1597764692433-b4cd5c1f1233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200'); /* Stunning safari sunset */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+        .service-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .decorative-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .icon-wildlife {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/68/68940.png'); /* Example wildlife icon */
+        }
+        .icon-luxury {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/3502/3502937.png'); /* Example luxury icon */
+        }
+        .icon-itinerary {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/1077/1077171.png'); /* Example itinerary icon */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elite Safari Journeys</h1>
+        <p>Curating unforgettable luxury safari experiences in Kenya</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Elite Safari Journeys, where we specialize in planning personalized luxury safaris for discerning travelers. With unmatched expertise and local connections, we deliver exclusive experiences that go beyond expectations, blending adventure, culture, and unparalleled comfort.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <div class="decorative-icon icon-wildlife"></div>
+                <img src="https://images.unsplash.com/photo-1565098772267-3246ba5b3c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Private Game Drives">
+                <h3>Private Game Drives</h3>
+                <p>Experience Kenya's breathtaking wildlife with exclusive access to private conservancies and expert guides.</p>
+            </div>
+            <div class="service-card">
+                <div class="decorative-icon icon-luxury"></div>
+                <img src="https://images.unsplash.com/photo-1508264165352-258c45e47a64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Luxury Accommodations">
+                <h3>Luxury Accommodations</h3>
+                <p>Stay in world-class lodges and tented camps offering five-star amenities and stunning views of the savannah.</p>
+            </div>
+            <div class="service-card">
+                <div class="decorative-icon icon-itinerary"></div>
+                <img src="https://images.unsplash.com/photo-1544739313-ef05e2d37e03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600" alt="Bespoke Itineraries">
+                <h3>Bespoke Itineraries</h3>
+                <p>Let us craft an itinerary tailored to your preferences, whether you seek adventure, relaxation, or cultural immersion.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to plan your dream safari? Get in touch with us today!</p>
+<form action="https://example.com/contact" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    <button type="submit">Submit</button>
+</form>
+        <p>Email: <a href="mailto:info@elitesafarijourneys.com">info@elitesafarijourneys.com</a></p>
+        <p>Phone: +254-123-456-789</p>
+        <p>Follow us on social media:</p>
+        <p>
+            <a href="https://instagram.com/elitesafarijourneys">Instagram</a> | <a href="https://facebook.com/elitesafarijourneys">Facebook</a> | <a href="https://linkedin.com/company/elitesafarijourneys">LinkedIn</a>
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Elite Safari Journeys. All rights reserved.</p>
+    </footer>
+</body>
+</html>
